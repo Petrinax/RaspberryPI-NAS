@@ -4,6 +4,31 @@
 
 This document covers creating Network Attached Storage (NAS) out of Raspberry Pi running in home network. NAS to be accessed remotely from the internet.
 
+## Table of Content
+
+- [RaspberryPI-NAS](#raspberrypi-nas)
+  - [Table of Content](#table-of-content)
+  - [Setting Up Raspberry Pi as a NAS](#setting-up-raspberry-pi-as-a-nas)
+    - [Recommendations](#recommendations)
+  - [Samba Setup](#samba-setup)
+    - [Steps to Configure Samba for File Sharing:](#steps-to-configure-samba-for-file-sharing)
+      - [Configured Storage Drive](#configured-storage-drive)
+  - [Access Shared Storage:](#access-shared-storage)
+      - [Windows:](#windows)
+      - [Linux:](#linux)
+      - [MacOS:](#macos)
+      - [Android:](#android)
+  - [Mount Drives](#mount-drives)
+    - [1. Check file systems](#1-check-file-systems)
+    - [2. Mount Storage Drive](#2-mount-storage-drive)
+    - [3. Add mount automation on reboot:](#3-add-mount-automation-on-reboot)
+    - [4. Verify](#4-verify)
+    - [Re-Mount:](#re-mount)
+    - [1. Unmount existing storage:](#1-unmount-existing-storage)
+    - [2. Reload `systemd` and Apply `fstab`](#2-reload-systemd-and-apply-fstab)
+    - [3. Debugging:](#3-debugging)
+  - [Shared Storage Access Management](#shared-storage-access-management)
+
 ## Setting Up Raspberry Pi as a NAS
 ### Recommendations
 To turn your Raspberry Pi into a Network Attached Storage (NAS) that can also be accessed remotely, consider the following options:
