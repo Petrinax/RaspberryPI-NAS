@@ -6,7 +6,7 @@ This document covers creating Network Attached Storage (NAS) out of Raspberry Pi
 
 ## Table of Content
 
-- [RaspberryPI-NAS](#raspberrypi-nas)
+
   - [Table of Content](#table-of-content)
   - [Setting Up Raspberry Pi as a NAS](#setting-up-raspberry-pi-as-a-nas)
     - [Recommendations](#recommendations)
