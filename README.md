@@ -1,8 +1,25 @@
 # RaspberryPI-NAS
 
+<p align="center">
+<a href="https://www.raspberrypi.org/"><img src="https://img.shields.io/badge/Platform-Raspberry%20Pi-red" alt="Platform: Raspberry Pi"/></a>
+<img src="https://img.shields.io/badge/Status-Setup%20Guide%20Only-blue" alt="Status: Setup Guide Only"/>
+<a href="https://www.samba.org/"><img src="https://img.shields.io/badge/Samba-File%20Sharing-green" alt="Samba"/></a>
+<img src="https://img.shields.io/badge/NAS-Network%20Attached%20Storage-orange" alt="NAS"/>
+</p>
+
+<p align="center">
+<a href="https://www.linkedin.com/in/piyush-upreti/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://github.com/petrinax"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=piyushupreti@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
+</p>
+
+---
+
 **Overview:**
 
-This document covers creating Network Attached Storage (NAS) out of Raspberry Pi running in home network. NAS to be accessed remotely from the internet.
+This document contains setup guide for building Network Attached Storage (NAS) out of Raspberry Pi running in home network. NAS to be accessed remotely from the internet providing a personal Google Drive alternative for free.
+
+> **Note:** Full codebase and scripts will be added soon!
 
 ## Table of Content
 
